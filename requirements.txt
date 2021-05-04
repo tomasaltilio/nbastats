@@ -1,0 +1,14 @@
+# data science
+numpy
+pandas
+plotly
+
+# API
+requests
+
+# Scrapping
+bs4
+
+# app building
+streamlit
+
