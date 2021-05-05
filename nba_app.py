@@ -64,7 +64,6 @@ if selected_team != [] and selected_pos != []:
     st.header('Display Player Stats of Selected Team(s)')
     st.write('Data Dimension: ' + str(df_filtered.shape[0]) + ' rows and ' + str(df_filtered.shape[1]) + ' columns.')
 
-
     st.dataframe(df_filtered.set_index('Player').style.set_precision(2).highlight_max(color = 'lightgreen', axis = 0))
 
     # Show MVP
