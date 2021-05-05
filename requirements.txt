@@ -7,7 +7,9 @@ plotly
 requests
 
 # Scrapping
+lxml
 bs4
+
 
 # app building
 streamlit
