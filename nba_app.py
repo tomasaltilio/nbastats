@@ -6,6 +6,14 @@ from bs4 import BeautifulSoup
 import numpy as np
 
 
+
+# Site configuration
+st.set_page_config(
+    page_title="NBA Scrapper",  
+    page_icon="🏀",
+    layout="centered", 
+    initial_sidebar_state="auto") 
+
 st.title('NBA Stats Explorer')
 
 st.markdown("""
