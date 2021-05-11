@@ -16,7 +16,7 @@
 <br>
 
 ## General info
-_____________________________
+
 <p>The app provides player's stats allowing the user to select the season and filter information by team and position.</p>
 
 
@@ -53,7 +53,7 @@ Finally, a simple data analysis of different shooting stats and rebounds 😁
 But first, we need to talk a bit about preprocessing data.
 
 ### Preprocessing data
-_____________________________
+
 <br>
 
  With the spirit of presenting relevant data, we will show only players that accomplish a minimum amount of games played. According to the NBA the **[statistical minimum](https://www.nba.com/stats/help/statminimums/)** to be considered is 70% of his team's games.
@@ -61,7 +61,7 @@ _____________________________
 As we're having % of shooting accuracy we need to do a bit of preprocessing to get rid of outliers. This could be the case of a player that has only one attempt at shooting a three and made it, and never attempting another shot again. With that spirit, we only took into consideration players which amount per game shot attempts over the first quartile.
 
 ### Visualization
-_____________________________
+
 <br>
 
 With the above considerations presented, let's take a quick peek at the visualizations throught the *gif* below. The stats are plotted as a scatter where in the axis we find the Attempts per game and the Accuracy. The size of the bubbles is defined by the Points per game stat. Different colours relate to the player's position.
@@ -71,13 +71,12 @@ With the above considerations presented, let's take a quick peek at the visualiz
 ![demo](images/demo.gif)
 
 ## Demo
-_____________________________
 
 You can visit the web app here 👉🏽  **https://nba-scrapper.herokuapp.com/**
 
 
 ## Technologies
-_____________________________
+
 Project was created with: 
 * Python version: 3.8.6
 * Heroku
@@ -87,7 +86,6 @@ Project was created with:
 
 
 ## Project description
-_____________________________
 
 ### Data source
 
@@ -107,7 +105,6 @@ Plots are built using Plotly, a Python library to build interactive and graphic 
 
 
 ## Bug Or Feature Request
-_____________________________
 
 If you find a bug (the website couldn't handle the query and/or gave undesired results), kindly open an issue **[here](https://github.com/tomasaltilio/nbastats/issues/new)** by including your search query and the expected result.
 
