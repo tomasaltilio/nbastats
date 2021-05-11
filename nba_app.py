@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 import numpy as np
 
 
-
 # Site configuration
 st.set_page_config(
     page_title="NBA Scrapper",  
@@ -21,6 +20,7 @@ This app performs simple webscraping of NBA player stats data.
 * **Python libraries:** BeautifulSoup, pandas, streamlit, numpy, matplotlib, plotly, requests
 * **Data source:** [Basketball Reference](https://www.basketball-reference.com/).
 """)
+
 
 st.sidebar.header('User Input Features')
 selected_year = st.sidebar.selectbox('Year', list(reversed(range(1980,2021))))
